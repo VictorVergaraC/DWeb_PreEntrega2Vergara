@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+nav {
+    background-color: #24252A;
+}
+.btnCuenta {
+    padding: .4rem 2rem;
+    border-radius: 50px;
+    text-decoration: none;
+}
+.img {
+    width: 173px;
+    aspect-ratio: auto 173 / 222;
+    height: 222px;
+    margin: auto;
+}
+.card {
+    width: 17rem;
+}
+.card-info {
+    width: 25rem;
+}
+
+.card-marca {
+    width: 10rem;
+    margin: 1rem .8rem
+}
+.navbar-toggler {
+    color: white;
+}
+.bg-nav-footer {
+    background-color: #24252A;
+}
+.texto-nav-footer {
+    color: #edf0f1;
+}
+
+@media (max-width: 1194px) {
+    .f-title {
+        display: none;
+    }
+    .img {
+        max-width: 120px;
+        max-height: 160px;
+    }
+}
+
+@media (max-width: 998px) {
+    .d-flex {
+        margin: 0 auto;
+    }
+    .p-vendidos {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .p-vendidos > .card {
+        max-width: 10rem;
+        margin: .7rem 0;
+    }
+    
+}
+
+@media (max-width: 985px) {
+    .img {
+        max-width: 140px;
+        max-height: 180px;
+    }
+}
+
+@media (max-width: 767px) {
+    .img {
+        max-width: 110px;
+        max-height: 140px;
+    }
+    .card-title {
+        font-size: 1rem;
+    }
+    .card-deck {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card {
+        margin: .5rem;
+    }
+    .card-info {
+        max-width: 50rem;
+    }
+    .card-p-vendidos {
+        width: 8rem;
+    }
+    .p-vendidos {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .p-vendidos > .card {
+        max-width: 8rem;
+    }
+    .section-marcas {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 408px) {
+    .card-info {
+        max-width: 20rem;
+    }
+    .p-vendidos > .card {
+        max-width: 11rem;
+    }
+}
