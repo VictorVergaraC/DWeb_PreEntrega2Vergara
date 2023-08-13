@@ -9,8 +9,8 @@ nav {
     text-decoration: none;
 }
 .img {
-    width: 173px;
-    aspect-ratio: auto 173 / 222;
+    max-width: 173px;
+    object-fit: cover;
     height: 222px;
     margin: auto;
 }
