@@ -9,7 +9,7 @@ nav {
     text-decoration: none;
 }
 .img {
-    max-width: 173px;
+    width: 173px;
     object-fit: cover;
     height: 222px;
     margin: auto;
@@ -18,11 +18,11 @@ nav {
     width: 17rem;
 }
 .card-info {
-    width: 25rem;
+    width: 20rem;
 }
 
 .card-marca {
-    width: 10rem;
+    width: 14rem;
     margin: 1rem .8rem
 }
 .navbar-toggler {
@@ -39,10 +39,6 @@ nav {
     .f-title {
         display: none;
     }
-    .img {
-        max-width: 120px;
-        max-height: 160px;
-    }
 }
 
 @media (max-width: 998px) {
@@ -56,24 +52,13 @@ nav {
         flex-wrap: wrap;
     }
     .p-vendidos > .card {
-        max-width: 10rem;
         margin: .7rem 0;
     }
     
 }
 
-@media (max-width: 985px) {
-    .img {
-        max-width: 140px;
-        max-height: 180px;
-    }
-}
-
 @media (max-width: 767px) {
-    .img {
-        max-width: 110px;
-        max-height: 140px;
-    }
+
     .card-title {
         font-size: 1rem;
     }
@@ -89,7 +74,7 @@ nav {
         max-width: 50rem;
     }
     .card-p-vendidos {
-        width: 8rem;
+        /* width: 8rem; */
     }
     .p-vendidos {
         display: flex;
@@ -98,7 +83,7 @@ nav {
         flex-wrap: wrap;
     }
     .p-vendidos > .card {
-        max-width: 8rem;
+        /* max-width: 8rem; */
     }
     .section-marcas {
         display: flex;
@@ -111,7 +96,5 @@ nav {
     .card-info {
         max-width: 20rem;
     }
-    .p-vendidos > .card {
-        max-width: 11rem;
-    }
+
 }
